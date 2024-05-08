@@ -17,7 +17,7 @@ function createHeader(){
 
 	const headerBar = document.getElementById("headerBar");
 
-	headerBar.innerHTML = "<img src='https://gcparksandresorts.github.io/main/webresources/images/GCPR-logo.png' id='headerLogo'>";
+	headerBar.innerHTML = "<img src='https://gcparksandresorts.github.io/travelorasnou/files/images/logos/travelONlogo.png' id='headerLogo'>";
 
 	createFooter();
 }

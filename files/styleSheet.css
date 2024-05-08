@@ -8,4 +8,41 @@ body {
 	background:#efefef;
 }
 
+/* HEADINGS AND TITLE FORMATING */
+	
+
+/* CONTAINER AND TEXT ELEMENTS */
+
+	.container, .leftContainer{
+		width:100%; max-width:1400px; 
+		margin:auto; margin-top:20px; margin-bottom:20px;
+		padding:15px;
+	}
+	.container {text-align:middle;}
+
+	.fullContainer{width:100%; background:cyan; margin:0; padding-top:15px; padding-bottom:15px;}
+
+	.columnContainer{
+		display:flex; flex-flow:row;
+		width:100%; max-width:1400px;
+		margin:auto; margin-top:20px; margin-bottom:20px;
+		padding:0;
+	}
+		.columnContainer img {width:40%; margin:15px; border-radius:15px; align-self:stretch; object-fit:cover;}
+		.columnContainer div {width:60%; margin:15px; align-self:stretch;}
+
+		@media screen and (max-width:800){
+			.columnContainer {flex-flow:column;}
+			.columnContainer img {width:100%;}
+			.columnContainer div {width:100%;}
+		}
+
+/* DECORATIVE ELEMENTS */
+
+	.spacer {width:100%; max-width:1400px; margin:auto; margin-top:10px; margin-bottom:10px; height:2px; background:gray; padding:0;}
+
+/* BUTTONS AND UI ELEMENTS */
+
+	button{}
+	a{color:inherit; text-decoration:underline; cursor:pointer;}
 

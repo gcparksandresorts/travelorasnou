@@ -10,7 +10,7 @@ body {
 
 /* HEADINGS AND TITLE FORMATING */
 
-	h1,h2,h3 {font-family: 'Trebuchet MS', sans-serif;}
+	h1,h2,h3 {font-family: 'Trebuchet MS', sans-serif; color:inherit;}
 
 /* CONTAINER AND TEXT ELEMENTS */
 
@@ -41,6 +41,11 @@ body {
 /* DECORATIVE ELEMENTS */
 
 	.spacer {width:100%; max-width:1400px; margin:auto; margin-top:10px; margin-bottom:10px; height:2px; background:gray; padding:0;}
+
+	.banner {width:100%; background:dimgray; height:50vh; padding:0; margin:0;}
+		.banner img{width:100%; height:100%; object-fit:cover;}
+
+	.titleBar{color:white; background:rgb(51,153,153);}
 
 /* BUTTONS AND UI ELEMENTS */
 

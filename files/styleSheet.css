@@ -9,7 +9,8 @@ body {
 }
 
 /* HEADINGS AND TITLE FORMATING */
-	
+
+	h1,h2,h3 {font-family: 'Trebuchet MS', sans-serif;}
 
 /* CONTAINER AND TEXT ELEMENTS */
 

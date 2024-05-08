@@ -2,7 +2,7 @@
 	position:fixed;
 	top:0; left:0; right:0;
 	background:linear-gradient(rgba(51,153,153,0.9),rgba(51,153,153,0.9));
-	border-bottom:2px solid white;
+	border-bottom:5px solid rgb(51,153,153);
 	height:80px;
 	z-index:999;
 }

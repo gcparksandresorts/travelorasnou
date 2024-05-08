@@ -1,2 +1,10 @@
 * {  box-sizing: border-box; } html { scroll-behavior: smooth; }
-body {}
+
+body {
+	font-size:17px; line-height:1.6;
+	font-family:verdana; 
+    	margin:0;
+	margin-top:80px; /* Leave Room for Header */
+}
+
+

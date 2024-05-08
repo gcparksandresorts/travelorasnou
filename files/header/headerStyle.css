@@ -1,0 +1,22 @@
+#headerBar{
+	position:fixed;
+	top:0; left:0; right:0;
+	background:linear-gradient(rgba(51,153,153,0.9),rgba(51,153,153,0.9));
+	border-bottom:2px solid white;
+	height:80px;
+	z-index:999;
+}
+
+#headerSpacer{
+	z-index:998;
+	position:absolute; top:0; left:0; right:0;
+	height:80px;
+	background:#efefef;
+}
+
+#headerLogo {
+	margin:15px;
+	height:50px; width:auto;
+	transition:0.5s; cursor:pointer;
+}
+#headerLogo:hover {scale:1.02;}

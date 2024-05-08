@@ -31,7 +31,7 @@ body {
 		.columnContainer img {width:40%; margin:15px; border-radius:15px; align-self:stretch; object-fit:cover;}
 		.columnContainer div {width:60%; margin:15px; align-self:stretch;}
 
-		@media screen and (max-width:800){
+		@media screen and (max-width:800px){
 			.columnContainer {flex-flow:column;}
 			.columnContainer img {width:100%;}
 			.columnContainer div {width:100%;}

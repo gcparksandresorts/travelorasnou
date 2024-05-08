@@ -17,7 +17,7 @@ function createHeader(){
 
 	const headerBar = document.getElementById("headerBar");
 
-	headerBar.innerHTML = "<img src='https://gcparksandresorts.github.io/travelorasnou/files/images/logos/travelONlogo.png' id='headerLogo'>";
+	headerBar.innerHTML = "<img onclick='"+'window.open("https://gcparksandresorts.github.io/travelorasnou")'+"' src='https://gcparksandresorts.github.io/travelorasnou/files/images/logos/travelONlogo.png' id='headerLogo'>";
 
 	createFooter();
 }

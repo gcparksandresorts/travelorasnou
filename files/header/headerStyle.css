@@ -7,6 +7,17 @@
 	z-index:999;
 }
 
+	#headerContents div{
+		margin:auto; margin-top:0; margin-bottom:0; padding:0; width:100%; max-width:1400px;
+	}
+
+	#headerContents a{
+		color:white;
+		font-size:22px;
+		text-decoration:none;
+		font-family: 'Trebuchet MS', sans-serif;
+	}
+
 #headerSpacer{
 	z-index:998;
 	position:absolute; top:0; left:0; right:0;
@@ -20,6 +31,8 @@
 	transition:0.5s; cursor:pointer;
 }
 #headerLogo:hover {scale:1.02;}
+
+
 
 
 

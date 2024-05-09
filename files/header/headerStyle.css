@@ -13,10 +13,14 @@
 
 	#headerContents a{
 		color:white;
+		height:100%; padding:15px;
 		font-size:22px;
 		text-decoration:none;
 		font-family: 'Trebuchet MS', sans-serif;
+		float:right;
+		background:none;
 	}
+	#headerContents a:hover{color:rgb(51,153,153); background:white;}
 
 #headerSpacer{
 	z-index:998;

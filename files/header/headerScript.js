@@ -39,6 +39,6 @@ function openHeaderMenu(){
 
 // Create the Footer and Populate it
 function createFooter(){
-	footer.innerHTML = "<br><div class='spacer'></div><div class='container'>(C) Oras Nou Ministry of Recreation | Department of Tourism</div><br><br> \
-		<p><a>Legal Information</a> | <a>Business</a> | <a>MCBPO</a></p>";
+	footer.innerHTML = "<br><div class='spacer'></div><div class='container'>(C) Oras Nou Ministry of Recreation | Department of Tourism<br><br> \
+		<p><a>Legal Information</a> | <a>Business</a> | <a>MCBPO</a></p></div>";
 }

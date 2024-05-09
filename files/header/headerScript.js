@@ -17,11 +17,18 @@ function createHeader(){
 
 	const headerBar = document.getElementById("headerBar");
 
-	headerBar.innerHTML = "<div id='headerContents'><img onclick='"+'window.open("https://gcparksandresorts.github.io/travelorasnou")'+"' src='https://gcparksandresorts.github.io/travelorasnou/files/images/logos/travelONlogo.png' id='headerLogo'></div>";
+	if(screen.width > 900){
 
-	const headerContents = document.getElementById("headerContents");
+		headerBar.innerHTML = "<div id='headerContents'><img onclick='"+'window.open("https://gcparksandresorts.github.io/travelorasnou")'+"' src='https://gcparksandresorts.github.io/travelorasnou/files/images/logos/travelONlogo.png' id='headerLogo'></div>";
 
-	headerContents.innerHTML += "<a>Places to Visit</a> <a>Things to Do</a> <a>Vacation Planning</a> <a>Menu</a>";
+		const headerContents = document.getElementById("headerContents");
+
+		headerContents.innerHTML += "<a>Places to Visit</a> <a>Things to Do</a> <a>Vacation Planning</a> <a>Menu</a>";
+
+	}else{
+		console.log("Minimized Header");
+		headerBar.innerHTML = "<div id='headerContents' style='text-align:center;'><img onclick='"+'window.open("https://gcparksandresorts.github.io/travelorasnou")'+"' src='https://gcparksandresorts.github.io/travelorasnou/files/images/logos/travelONlogo.png' id='headerLogo'> <a onclick='openHeaderMenu()'>MENU</a></div>";
+	}
 	createFooter();
 }
 
@@ -32,5 +39,6 @@ function openHeaderMenu(){
 
 // Create the Footer and Populate it
 function createFooter(){
-	footer.innerHTML = "<br><div class='spacer'></div><div class='container'>(C) Oras Nou Ministry of Recreation | Department of Tourism</div><br><br>";
+	footer.innerHTML = "<br><div class='spacer'></div><div class='container'>(C) Oras Nou Ministry of Recreation | Department of Tourism</div><br><br> \
+		<p><a>Legal Information</a> | <a>Business</a> | <a>MCBPO</a></p>";
 }

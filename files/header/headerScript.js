@@ -17,8 +17,11 @@ function createHeader(){
 
 	const headerBar = document.getElementById("headerBar");
 
-	headerBar.innerHTML = "<img onclick='"+'window.open("https://gcparksandresorts.github.io/travelorasnou")'+"' src='https://gcparksandresorts.github.io/travelorasnou/files/images/logos/travelONlogo.png' id='headerLogo'>";
+	headerBar.innerHTML = "<div id='headerContents'><img onclick='"+'window.open("https://gcparksandresorts.github.io/travelorasnou")'+"' src='https://gcparksandresorts.github.io/travelorasnou/files/images/logos/travelONlogo.png' id='headerLogo'></div>";
 
+	const headerContents = document.getElementById("headerContents");
+
+	headerContents.innerHTML += "<a>Places to Visit</a> <a>Things to Do</a> <a>Vacation Planning</a> <a>Menu</a>";
 	createFooter();
 }
 
@@ -29,5 +32,5 @@ function openHeaderMenu(){
 
 // Create the Footer and Populate it
 function createFooter(){
-	
+	footer.innerHTML = "<br><div class='spacer'></div><div class='container'>(C) Oras Nou Ministry of Recreation | Department of Tourism</div><br><br>";
 }

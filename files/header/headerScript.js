@@ -23,7 +23,7 @@ function createHeader(){
 
 		const headerContents = document.getElementById("headerContents");
 
-		headerContents.innerHTML += "<a>Places to Visit</a> <a>Things to Do</a> <a>Vacation Planning</a> <a>Menu</a>";
+		headerContents.innerHTML += "<a>Menu</a> <a>Vacation Planning</a> <a>Things to Do</a> <a>Places to Visit</a>";
 
 	}else{
 		console.log("Minimized Header");

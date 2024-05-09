@@ -27,7 +27,7 @@ function createHeader(){
 
 	}else{
 		console.log("Minimized Header");
-		headerBar.innerHTML = "<div id='headerContents' style='text-align:center;'><img onclick='"+'window.open("https://gcparksandresorts.github.io/travelorasnou")'+"' src='https://gcparksandresorts.github.io/travelorasnou/files/images/logos/travelONlogo.png' id='headerLogo'> <a onclick='openHeaderMenu()'>MENU</a></div>";
+		headerBar.innerHTML = "<div id='headerContents'><img onclick='"+'window.open("https://gcparksandresorts.github.io/travelorasnou")'+"' src='https://gcparksandresorts.github.io/travelorasnou/files/images/logos/travelONlogo.png' id='headerLogo'> <a onclick='openHeaderMenu()'>MENU</a></div>";
 	}
 	createFooter();
 }
